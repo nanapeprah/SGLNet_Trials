@@ -1,0 +1,74 @@
+.login-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.login-heading {
+  font-family: "Ubuntu";
+}
+
+.hint {
+  font-family: "Ubuntu" !important;
+}
+
+.hint-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* gallery */
+.gallery {
+  font-family: "Ubuntu";
+  width: 100%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* letter */
+.letter {
+  font-family: "Ubuntu";
+  text-align: left;
+  margin: 3%;
+}
+
+/* video */
+.video {
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* mui buttons */
+
+.MuiButton-root {
+  margin-block: 1.2rem !important;
+  text-transform: none !important;
+  background-color: #d01760 !important;
+  font-family: "Ubuntu" !important;
+  color: white !important;
+}
+
+.MuiButton-root:hover {
+  background-color: black !important;
+}
+
+.MuiInputLabel-root {
+  font-family: "Ubuntu" !important;
+}
+
+.MuiSvgIcon-root {
+  color: #d01760 !important;
+}
+
+.MuiBottomNavigationAction-label {
+  color: #d01760 !important;
+}
